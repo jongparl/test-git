@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="삭제할 대상 정보"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/textView1"
+		android:layout_gravity="center"
+		android:paddingTop="30dip"></TextView>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1"
+		android:paddingTop="50dip">
+		<TextView
+			android:text="NO:           "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/noView_delete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1"
+		android:paddingTop="50dip">
+		<TextView
+			android:text="이름 :        "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/nameView_delete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="학년:        "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/gradeView_delete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1"
+		android:paddingBottom="50dip">
+		<TextView
+			android:text="전화번호:  "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/callNumView_delete"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<TextView
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:text="정말 삭제할 생각이십니까!!!???"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:id="@+id/textView3"></TextView>
+	<TextView
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:text="다시한번 생각해보세요!!"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:id="@+id/textView3"></TextView>
+	<Button
+		android:text="삭제 하기"
+		android:id="@+id/DeleteOkBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button
+		android:text="목록 보러 가기"
+		android:id="@+id/gotoListBtn_delete"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

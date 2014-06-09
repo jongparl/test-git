@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="상세 보기 페이지"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/textView1"
+		android:layout_gravity="center"
+		android:paddingTop="30dip"></TextView>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1"
+		android:paddingTop="50dip">
+		<TextView
+			android:text="No:              "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/noView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1"
+		android:paddingTop="50dip">
+		<TextView
+			android:text="이름:            "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/nameView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="학년:            "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/gradeView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/linearLayout1"
+		android:paddingBottom="50dip">
+		<TextView
+			android:text="전화번호:   "
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView
+			android:text=""
+			android:id="@+id/callNumView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<Button
+		android:text="수정 하러 가기"
+		android:id="@+id/gotoUpdateBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button
+		android:text="삭제 하러 가기"
+		android:id="@+id/gotoDeleteBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<Button
+		android:text="목록 보러 가기"
+		android:id="@+id/gotoListBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
